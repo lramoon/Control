@@ -1,0 +1,184 @@
+* {
+    margin:0px;
+    padding:0px;
+    background-size: cover;
+   }
+body {
+    /* General */
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    overflow: hidden;
+    background-size: cover;
+    background-image: url(../images/jontex.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #66999;
+    
+}
+
+.error{
+  
+}
+.Formulario{
+    display: inline-block;
+    padding: 25px;
+    margin: 10px;
+}
+.CFormulario{
+  display: inline-block;
+  padding: 20px;
+  margin: 5px;
+}
+
+h1{
+    margin: 10px;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+   }
+h2{
+      display: inline-block;
+      color: solid black;
+      font-size: 30px;
+      text-align: left;
+      margin: 5px;
+   }
+h3{
+    margin-top: 2px;
+    display: inline-block;
+    color: solid black;
+    font-size: 20px;
+       
+   }
+h4{
+      display: inline-block;
+      color: black;
+      font-size: 20px;
+      text-align: left;
+      margin-top: 4px;
+      margin-bottom: 2px;
+      margin-right: 2px;
+   }
+h5{
+    display: inline-block;
+      color: black;
+      font-size: 15px;
+      text-align: left;
+      margin-top: 4px;
+      margin-bottom: 2px;
+      margin-right: 2px;
+ }
+.header{
+  margin:auto; 
+  font-family:Arial, Helvetica, sans-serif;
+  background: black;
+}
+ul, ol {
+  list-style:none;
+ }
+
+.nav > li {
+  object-position: right;
+  display: inline-block;
+ }
+ 
+.nav li a {
+background-color:#000;
+color:#fff;
+text-decoration:none;
+padding:10px 12px;
+display:block;
+ }
+ 
+.nav li a:hover {
+  background-color:#434343;
+ }
+ 
+.nav li ul {
+display:none;
+position:absolute;
+min-width:140px;
+ }
+ 
+.nav li:hover > ul {
+  display:inline-block;
+ }
+ 
+.nav li ul li {
+  position:relative;
+ }
+ 
+.nav li ul li ul {
+right:-140px;
+top:0px;
+ }
+
+  .Usuario{
+      margin-left: 33px;
+      margin-bottom: 5px;
+      padding: 5px;
+  }
+  .Password{
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+  }
+  .btn{
+    padding: 10px;
+    color: #fff;
+    background: #0098cb;
+    width: 320px;
+    margin: 10px auto;
+    margin-top: 0;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+
+  }
+.scroll{
+  height:315px;
+  overflow:auto;
+}
+  
+  /* Input Forms*/
+  input[type="text"], input[type="password"],input[type="email"],input[type="date"]{
+    outline: none;
+    padding: 10px;
+    display: block;
+    width: 300px;
+    border-radius: 3px;
+    border: 1px solid #eee;
+    margin: 5px auto;
+  }
+  
+  input[type="submit"] {
+    padding: 10px;
+    color: #fff;
+    background: #0098cb;
+    width: 320px;
+    margin: 5px auto;
+    margin-top: 0;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #00b8eb;
+  }
+  .requisites{
+    padding: 0 2px 0 2px;
+  }
+  .requisites.error{
+    text-decoration: underline;
+    background: #fff8cc;
+    color: #171717;
+  }
+  input.error{
+    border: 2px solid #d61a1a ;
+    
+  }
